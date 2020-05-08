@@ -5,7 +5,7 @@ import LaundingScreen from './my_components/LaundingScreen'
 import ReportUpdate from './my_components/report'
 import {AppLoading} from 'expo'
 import * as Font from 'expo-font'
-import Router from './routes/appStackNavigation'
+import Router from './routes/appNavigation'
 
 export default function App(){  
     
@@ -13,4 +13,7 @@ export default function App(){
       <Router/>
     );
 
+    
+  
+      
 }

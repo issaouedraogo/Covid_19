@@ -5,7 +5,9 @@ import styles from '../styles';
 
 
 export default function ReportUpdate({navigation}){
-   
+    const pressHandler = () =>  {
+        navigation.goBack();
+    }
 
     return(
     

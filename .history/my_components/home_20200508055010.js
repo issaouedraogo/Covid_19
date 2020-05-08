@@ -9,11 +9,13 @@ export default function Home({navigation}){
     }
 
 
-
-    <View style={styles.container}>
-        <Text>Home screen</Text>
-        <Button title='Go to Report' onPress={pressHandler}/>
-    </View>
+    return(
+        <View style={styles.container}>
+            <Text>Home screen</Text>
+            <Button title='Go to Report' onPress={pressHandler}/>
+        </View>
+    );
+    
 
 
 }
