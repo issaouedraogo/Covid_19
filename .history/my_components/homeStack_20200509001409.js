@@ -1,6 +1,6 @@
 import React from 'react'
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'
-import {} from 'react-native'
+import { Text, View, Button} from 'react-native'
 import News from './new'
 import ReportUpdate from './report'
 import Home from '../Screens/home'
