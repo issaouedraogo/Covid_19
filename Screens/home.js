@@ -1,9 +1,9 @@
 import React from 'react'
-import {View, Text, Button, SafeAreaView} from 'react-native'
+import {View, Text, Button, SafeAreaView, FlatList} from 'react-native'
 import styles from '../styles';
 import Card from '../my_components/card'
 import { useEffect, useState } from 'react'
-import { FlatList } from 'react-native-gesture-handler';
+import {  } from 'react-native-gesture-handler';
 
 
 export default function Home({navigation}){
