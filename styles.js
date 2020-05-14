@@ -30,7 +30,32 @@ const styles = StyleSheet.create({
       letterSpacing:1,
     },
     card_form:{
-        
+      borderRadius: 6, 
+      elevation:3, 
+      backgroundColor:'#fff', 
+      shadowOffset:{width:1, height:1},
+      shadowColor:'#333',
+      shadowOpacity: 0.3,
+      shadowRadius:2,
+      marginHorizontal:10,
+      marginVertical: 10,
+      justifyContent:'center' 
+    },
+    cardContent_header:{
+      flex:5,
+      marginHorizontal: 18, 
+      marginVertical:18,
+      fontSize:15,
+      alignItems:'center'
+    },
+    cardContent_val:{
+      flex:1,
+      flexDirection:'row',
+      marginHorizontal: 18, 
+      marginVertical:5,
+      fontSize:15,
+      alignItems:'center'
     }
+      
   });
   export default styles
